@@ -35,8 +35,6 @@ const Content = () => (
          Donec ullamcorper bibendum tellus. Sed faucibus nulla et turpis cursus, ut bibendum ante dictum. 
         In dapibus sem vel lacinia dapibus. Ut aliquam mattis condimentum. Cras id metus hendrerit, blandit velit at,
         ultrices urna. Phasellus eget ipsum metus. Etiam vitae turpis malesuada lectus sagittis efficitur. 
-        
-        Nullam vitae urna at eros dapibus consequat ac id sem. Morbi tortor orci, gravida nec purus vel, sollicitudin sodales justo.
         </p>
     </div>
     <div className="position-relative">
@@ -52,9 +50,9 @@ const Content = () => (
        </span>
          </Col>
       </Row>
-      <Row noGutters className="pt-2 pb-2 ml-3  mr-3 bg-secondary">
+      <Row noGutters className="pt-5 pb-5 ml-3  mr-3 bg-secondary">
       <Media>
-        <Media left className="pl-2">
+        <Media left className="pl-3">
           <Media object src={AVATAR} alt="Generic placeholder image" style={{width:'64px'}}/>
         </Media>
         <Media body className="h6 pl-2">

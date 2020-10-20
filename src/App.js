@@ -5,6 +5,7 @@ import Post from './components/Post';
 import Header from './components/Header';
 import TopCard from './components/TopCard';
 import Content from './components/Content';
+import BottomCard from './components/BottomCard';
 
 const App = () => (
 	<Fragment>
@@ -23,7 +24,7 @@ const App = () => (
 				</Row>
 				<Row noGutters className="pt-2 pt-md-5 w-100 px-4 px-xl-0 position-relative">
 					<Col>
-						<Post />
+						<BottomCard />
 					</Col>
 				</Row>
 			</Container>
